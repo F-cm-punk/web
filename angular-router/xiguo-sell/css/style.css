@@ -484,6 +484,20 @@ hr{
 	width: 100%;
 	height: 100%;
 }
+.banner_bg .banner_pic li:first-child{
+	display: block;
+	width: 100%;
+	height: 320px;
+	background: url(../img/70ad6617bd5467cb964e0c3b6465ab34da482083.jpg) no-repeat center;
+	background-size: cover;
+}
+.banner_bg .banner_pic li:last-child{
+	display: block;
+	width: 100%;
+	height: 320px;
+	background: url(../img/ece654bfc4c35c0407789485eee560c159085917.jpg) no-repeat center;
+	background-size: cover;
+}
 .banner_jd{
 	width: 50px;
 	height: 15px;
