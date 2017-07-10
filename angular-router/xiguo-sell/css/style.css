@@ -466,18 +466,23 @@ hr{
 	overflow: hidden;
 	position: relative;
 }
-.banner_bg ul{
+.banner_bg .banner_pic{
 	list-style: none;
 	width: 100%;
 	height: 320px;
-	position: relative;
+	overflow: hidden;
 }
-.banner_bg ul li{
+.banner_bg .banner_pic:after{
+	content: '';
+	height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+.banner_bg .banner_pic li{
+	float: left;
 	width: 100%;
-	height: 320px;
-	position: absolute;
-	top: 0;
-	left: 0;
+	height: 100%;
 }
 .banner_jd{
 	width: 50px;
