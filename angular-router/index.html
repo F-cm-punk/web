@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>张忠亮毕业答辩入口</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="icon" href="img/logooo.ico" type="image/x-icon"/>
+	</head>
+	<body ng-app="app">
+			<div class="row">
+				<div class="col-md-1 col-sm-2 left">
+					<img src="img/headImg.png" alt="张忠亮" class="img-circle img-responsive center-block">
+					<ul class="text-center ul01 clearfix">
+						<li><a href="#/page1">个人概览</a></li>
+						<li><a href="#/page2">工作经验</a></li>
+						<li><a href="#/page3">项目入口</a></li>
+					</ul>
+					<ul class="text-center smToshow">
+						<li><a href="#/page1">概览</a></li>
+						<li><a href="#/page2">经验</a></li>
+						<li><a href="#/page3">项目</a></li>
+					</ul>
+				</div>
+				
+				
+				<div class="col-md-11 col-sm-10 text-center">
+					<div ng-view=""></div>
+				</div>
+				
+			</div>
+			
+		
+		
+		
+		
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-route.js"></script>
+		<script>
+		var app=angular.module('app',['ngRoute']);
+		app.config(['$routeProvider', function($routeProvider){
+                $routeProvider
+                  .when('/',{
+                	templateUrl:'page1.html',
+                	controller:'page1'
+                })
+                .when('/page1',{
+                	templateUrl:'page1.html',
+                	controller:'page1'
+                })
+                .when('/page2',{
+                	templateUrl:'page2.html',
+                	controller:'page2'
+                })
+                .when('/page3',{
+                	templateUrl:'page3.html',
+				controller:'page3'
+                })
+              	.otherwise({redirectTo:'/'});
+            }])
+			
+		
+		
+		</script>
+	</body>
+</html>

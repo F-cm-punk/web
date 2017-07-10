@@ -1,0 +1,213 @@
+*{
+	margin: 0 auto;
+	padding: 0px;
+	font-size: 12px;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: url(../img/bg.gif) repeat scroll top left;
+}
+a{
+	text-decoration: none;
+	color: #666666;
+	display: inline-block;
+}
+a:link{
+	text-decoration: none;
+}
+#con{
+	width: 1000px;
+	height: 100%;
+	position: relative;
+}
+.logo{
+	position: absolute;
+	left: 50%;
+	margin-left: -125px;
+	top: 80px;
+}
+.logo img{
+	animation-delay: 1s;
+}
+
+.cen{
+	width: 650px;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -325px;
+	top: 400px;
+	animation-delay: 1.5s;
+	/*background: pink;*/
+}
+.cen_left{
+	width: 60px;
+	height: 8px;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	float: left;
+	margin-top: 10px;
+}
+.cen_right{
+	width: 60px;
+	height: 8px;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	float: right;
+	margin-top: 10px;
+}
+.cen p{
+	font-weight: bold;
+	color: #666666;
+	display: inline-block;
+	width: 500px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
+	letter-spacing: 4px;
+	font-size: 14px;
+	/*background: pink;*/
+}
+
+
+.middle{
+	width: 700px;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	left: 50%;
+	margin-left: -350px;
+	top: 480px;
+	/*background: pink;*/
+}
+.middle img{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	top: 2px;
+	margin-left: -15px;
+	color: #DC6552;
+	animation-duration: 1s;
+	animation-iteration-count: 4;
+}
+.mid_left{
+	float: left;
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 10px;
+	color: #666666;
+	margin-top: 10px;
+}
+.mid_right{
+	float: right;
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 10px;
+	color: #666666;
+	margin-top: 10px;
+}
+
+
+.thr{
+	width: 250px;
+	height: 30px;
+	position: absolute;
+	top: 560px;
+	left: 50%;
+	margin-left: -125px;
+	animation-delay: 2.5s;
+	/*background: pink;*/
+}
+.thr p{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #666666;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.bot{
+	width: 650px;
+	height: 55px;
+	position: absolute;
+	left: 50%;
+	margin-left: -325px;
+	top: 650px;
+	animation-delay: 3s;
+	/*background: pink;*/
+}
+.aboutme a{
+	border: 3px solid #666666;
+	border-radius: 25px;
+	width: 140px;
+	height: 43px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 5px;
+	position: absolute;
+	left: 0px;
+	transition: all 1s;
+}
+.aboutme a:hover{
+	border-color: #DC6552;
+	color: #DC6552;
+}
+.mogujie a{
+	border: 3px solid #666666;
+	border-radius: 25px;
+	width: 170px;
+	height: 43px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 5px;
+	position: absolute;
+	left: 50%;
+	margin-left: -85px;
+	transition: all 1s;
+}
+.mogujie a:hover{
+	border-color: #DC6552;
+	color: #DC6552;
+}
+.off a{
+	border: 3px solid #666666;
+	border-radius: 25px;
+	width: 140px;
+	height: 43px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 5px;
+	position: absolute;
+	right: 0px;
+	transition: all 1s;
+}
+.off a:hover{
+	border-color: #DC6552;
+	color: #DC6552;
+}
+
+
+
+
+
+
+
+
+
+
+
