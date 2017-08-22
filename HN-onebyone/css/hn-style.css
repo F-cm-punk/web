@@ -1,3 +1,4 @@
+/* *** public css (红娘一对一) *** */
 html,body{
 	font-size: 14px;
 	font-family: "微软雅黑","宋体","times new roman",sans-serif;
@@ -27,6 +28,8 @@ h1{
 p{
 	margin: 0 !important;
 }
+/* *** public css (红娘一对一) *** */
+
 
 /* 
  
@@ -163,7 +166,7 @@ p{
 	}
 	.mb3 .media-body p,
 	.part_two .media .mb2 p{
-		padding: 15px 15px 0 15px;
+		padding: 15px 10px 0 10px;
 	}
 	#main .part_two ul li:hover{
 		-webkit-transform: none;
@@ -335,7 +338,7 @@ p{
 .media-body>p{
 	text-indent: 2em;
 	text-align: left;
-	padding: 10px 30px 0 20px;
+	padding: 10px 15px 0 15px;
 	line-height: 30px;
 	font-size: 14px;
 	color: #444444;
@@ -405,7 +408,7 @@ p{
 .part_six p,
 .part_seven p,
 .part_eight p{
-	padding: 15px 15px 0 15px;
+	padding: 15px 10px 0 10px;
 	text-indent: 2em;
 	line-height: 30px;
 	margin: 0;
@@ -449,6 +452,9 @@ p{
 	width: 250px;
 	height: auto;
 }
+
+
+/* *** public css (红娘一对一) *** */
 
 /* footer  start */
 #footer{
@@ -509,8 +515,9 @@ p{
 	background-size: cover;
 	outline:none;
 }
+/*goTop*/
 
-
+/* *** public css (红娘一对一) *** */
 
 
 
