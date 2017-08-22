@@ -15,10 +15,10 @@
 		<div class="container-fluid" id="headerTop">
 			<div class="container headertop_con">
 				<div class="row">
-					<div class="col-md-3 col-sm-3 col-sm-12 logo">
+					<div class="col-md-3 col-sm-3 logo">
 						<a href="###"><img src="img/logo.png" class="img-responsive"/></a>
 					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12 text-center brand">
+					<div class="col-md-6 col-sm-6 text-center brand">
 						<a href="###"><img src="img/brand.png" class="img-responsive"/></a>
 					</div>
 					<div class="col-md-3 col-sm-3 tel">
@@ -35,19 +35,25 @@
 		
 		<nav class="navbar navbar-default" id="nav">
 		  	<div class="container nav_con">
-			    <div class="navbar-header">
-			      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			       		<!--<span class="sr-only">Toggle navigation</span>-->
-			       		<span class="icon-bar"></span>
-			       		<span class="icon-bar"></span>
-			        	<span class="icon-bar"></span>
-			      	</button>
-			    </div>
-			
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			    	<ul class="nav navbar-nav">
+		  		<!-- 
+		  			
+		  			小于700px时显示的navbar  
+		  			
+		  		-->
+		  		<div class="dh_box hidden-lg hidden-md hidden-sm">
+		  			<div class="nav_active"><a href="###">服务介绍</a></div>
+		  			<div><a href="###">才俊佳丽</a></div>
+		  		</div>  		
+		  		<!-- 
+		  			
+		  			小于700px时显示的navbar  
+		  			
+		  		-->
+		  		
+			    <div class="navBox" id="navBox">
+			    	<ul class="nav navbar-nav clearfix">
 			    		<li class="nav_active">
-			    			<a href="###">服务介绍<span class="sr-only">(current)</span></a>
+			    			<a href="###">服务介绍</a>
 			    		</li>
 			        	<li>
 			        		<a href="###">才俊佳丽</a>
@@ -92,11 +98,11 @@
 			<div class="part_two text-center">
 				<h1 class="text-center">◆&nbsp;圣魔服务5步骤</h1>
 				<ul>
-					<li><a href="#p1"><img src="img/01.png" class="img-thumbnail"/></a></li>
-					<li><a href="#p2"><img src="img/02.png" class="img-thumbnail"/></a></li>
-					<li><a href="#p3"><img src="img/03.png" class="img-thumbnail"/></a></li>
-					<li><a href="#p4"><img src="img/04.png" class="img-thumbnail"/></a></li>
-					<li><a href="#p5"><img src="img/05.png" class="img-thumbnail"/></a></li>
+					<li><a href="#p1"><img src="img/01.png"/></a></li>
+					<li><a href="#p2"><img src="img/02.png"/></a></li>
+					<li><a href="#p3"><img src="img/03.png"/></a></li>
+					<li><a href="#p4"><img src="img/04.png"/></a></li>
+					<li><a href="#p5"><img src="img/05.png"/></a></li>
 				</ul>
 				<h1 class="text-center">百里挑一，为您搜索合适的优质对象</h1>
 				
@@ -319,10 +325,17 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script>
 		$(function(){
-			$("#bs-example-navbar-collapse-1 ul li").hover(function(){
+			$("#navBox ul li").hover(function(){
 				var i = $(this).index();
-				$("#bs-example-navbar-collapse-1 ul li").eq(i).addClass("nav_active").siblings().removeClass("nav_active");
+				$("#navBox ul li").eq(i).addClass("nav_active").siblings().removeClass("nav_active");
 			});
+			
+			$("#nav .dh_box div").click(function(){
+				var e = $(this).index();
+				$("#nav .dh_box div").eq(e).addClass("nav_active").siblings().removeClass("nav_active");
+			});
+			
+			
 			
 			$(window).scroll(function() {
 				if($(window).scrollTop() >= 200){
