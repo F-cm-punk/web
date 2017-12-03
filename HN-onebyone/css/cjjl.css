@@ -1,0 +1,191 @@
+html,body{
+	font-size: 14px;
+	font-family: "微软雅黑","times new roman",sans-serif;
+	background: #fff;
+}
+/*  cjjl.css  */
+#main{
+	margin-top: 15px;
+}
+@media only screen and (max-width: 2000px) and ( min-width:700px ) {
+	.col-1200-5{
+		width: 17.98%;
+		float: left;
+		text-align: center;
+		margin: 0 10px;
+	}
+}
+
+.mainTop{
+	margin-top: 40px;
+}
+.beauty a:first-child{
+	height: 36px;
+}
+.beauty a{
+	display: block;
+	background: #CCCCCC;
+	color: #FFFFFF;
+	width: 90px;
+	height: 46px;
+	text-align: center;
+	float: left;
+	line-height: 36px;
+	font-size: 20px;
+	margin-right: 5px;
+}
+.beauty a:hover{
+	color: #fff;
+}
+.beauty .main_active{
+	background: url(../img/qipao.png) no-repeat center;
+}
+
+.hereBox{
+	margin-left: 80px;
+}
+.hereBox a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+}
+.hereBox a:hover img{
+	transform: scale(1.05);
+}
+.hereBox a img{
+	transition: all 0.3s;
+}
+.Application{
+	margin-top: 16px;
+}
+.Application a{
+	font-size: 14px;
+	color: #999999;
+}
+.Application a span{
+	color: red;
+	padding-left: 5px;
+}
+
+.rowlist ul{
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+.rowlist ul li{
+	float: left;
+	height: auto;
+	background: #ffffff;
+	box-shadow: 0 0 10px #CCCCCC;
+}
+.rowlist ul li .vipImg img{
+	background: #777777;
+	width: 100%;
+	height: 100%;
+	margin-top: 14px;
+}
+.rowlist ul .rowOne{
+	margin-bottom: 20px;
+}
+.vipBottom{
+	margin-bottom: 14px;
+}
+.vipBottom div{
+	margin: 4px 0 4px 0;
+	text-align: left;
+}
+.vipBottom div a{
+	color: #444444;
+	font-size: 14px;
+}
+
+.vipSex{
+	background: url(../img/1-3.png) no-repeat;
+    background-size: 43px 19px;
+    color: #ffffff;
+    padding: 2px 8px 2px 22px;
+    font-size: 12px;
+}
+.vipSm{
+	background: #e07771;
+	border-radius: 3px;
+    color: #ffffff;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+.vipAddress{
+	background: url(../img/pos-white.png) 3px 4px no-repeat;
+	background-color: #b6b5b6;
+	padding: 2px 5px 2px 15px;
+	border-radius: 3px;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.page{
+	margin: 20px 0 60px 0;
+}
+
+.layui-laypage a:hover {
+	 color: #B73CCB !important;
+}
+
+
+/*
+ *  	cjjl mobile css
+ */
+
+@media (max-width: 700px) {
+	.nav_con .dh_box div a {
+	    padding: 0 20px 18px 20px;
+	}
+	.hereBox{
+		display: none;
+	}
+	.beauty a:first-child {
+	    height: 30px;
+	}
+	.beauty a {
+	    display: block;
+	    background: #CCCCCC;
+	    color: #FFFFFF;
+	    width: 90px;
+	    height: 30px;
+	    text-align: center;
+	    float: left;
+	    line-height: 30px;
+	    font-size: 16px;
+	    margin-right: 5px;
+	}
+	.beauty .main_active{
+		background: #B73CCB !important;
+	}
+	.Application {
+	    margin-top: 6px;
+	}
+	.Application a:hover{
+		color: #999999;
+	}
+	.mainTop {
+	    margin: 20px 0 15px 0;
+	    padding: 0 10px;
+	}
+	.rowOne{
+		margin-left: 10px;
+	}
+	.col-xs-6 {
+	    width: 47%;
+	}
+	
+
+
+}
+/*cjjl mobile css*/
+
+
+
+
+
+
+
+

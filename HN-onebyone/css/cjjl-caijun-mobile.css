@@ -1,0 +1,170 @@
+.colorLine{
+	background: url(../img/title-bg-nan.png) no-repeat center;
+}
+.txt_right ul li span{
+	background: #3caae5;
+}
+.vipSex {
+	background: url(../img/1-1.png) no-repeat;
+	background-size: 50px 21px;
+}
+.JL_introduce {
+	background: #ecf2f4;
+}
+.btn_hn {
+	text-align: center;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.btn_hn a {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    background: #3caae5;
+    border-radius: 50px;
+    padding: 8px 25px;
+    box-shadow: 0 0 10px #C0C0C0;
+}
+.btn_hn a:hover {
+    background: #5dbff3;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #3caae5 !important;
+}
+.vipSm{
+	background: #35b1f1;
+	border-radius: 3px;
+    color: #ffffff;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+
+
+@media (max-width: 700px ) {
+	.btn_hn{
+		display: none;
+	}
+	.imgBox {
+	    background: transparent;
+	    margin: 20px auto;
+	    width: 50%;
+	}
+	.imgBox .swiper-wrapper div img{
+		width: 100%;
+		box-shadow: 0 0 10px #bbbbbb;
+	}
+	.txt_left h2 {
+		text-align: center;
+		padding-left: 0px;
+		font-size: 16px;
+	}
+	.txt_left h2 img {
+	    width: 16px;
+	    vertical-align: baseline;
+	    margin-left: 5px;
+	}
+	.txt_left p {
+		text-align: center;
+	    padding-left: 0px;
+	}
+	.txt_right ul li {
+	    padding-bottom: 25px;
+	}
+	.txt_right ul li span {
+	    background: #3caae5;
+	    color: #FFFFFF;
+	    font-size: 12px;
+	    text-align: center;
+	    padding: 5px 15px;
+	    border-radius: 5px;
+	}
+	.smInfo, .heartInfo {
+	    padding-top: 0px;
+	}
+	.heartInfo p, .hnInfo p {
+	    padding: 20px;
+	}
+	.btn_hn_bottom{
+		display: block;
+		text-align: center;
+		padding: 50px 0 60px 0;
+	}
+	.btn_hn_bottom a{
+		font-size: 24px;
+		color: #FFFFFF;
+		margin-top: 25px;
+		border-radius: 50px;
+		background: #3caae5;
+		padding: 8px 25px;
+		box-shadow: 0 0 10px #C0C0C0;
+	}
+	.hnInfo {
+	    padding-bottom: 30px;
+	    margin-top: 10px;
+	}
+	.colorLine {
+	    widows: 90%;
+	    height: 5px;
+	    background: url(../img/title-bg-nan.png) no-repeat center;
+	}
+	.vipSex {
+	    background: url(../img/1-1.png) no-repeat;
+	    background-size: 50px 21px;
+	}
+	.txt_right ul {
+	    margin-top: 30px;
+	}
+	.txt_right .ul_lr {
+	    width: 45%;
+	    padding-right: 5px;
+	    padding-left: 0;
+	    text-align: right;
+	}
+	.txt_right h1{
+		text-align: center;
+		padding: 10px 0;
+	}
+	.txt_right .ul_rt {
+		padding-left: 5px;
+	}
+	.imgBox .swiper-container-horizontal>.swiper-pagination-bullets, 
+	.swiper-pagination-custom, .swiper-pagination-fraction {
+		bottom: 0;
+	}
+	.txt_right {
+	    padding-top: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

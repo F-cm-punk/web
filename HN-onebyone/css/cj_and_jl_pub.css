@@ -1,0 +1,130 @@
+html,body{
+	font-size: 14px;
+	font-family: "微软雅黑","times new roman",sans-serif;
+	background: #fff;
+}
+/*jiali css*/
+.JL_introduce{
+	border: 4px solid #FFFFFF;
+	background: #f9f1f2;
+	margin: 40px 0 25px 0;
+	box-shadow: 0 0 10px #e6e6e6;
+}
+.imgBox{
+	background: transparent;
+	margin: 50px 0 20px 50px;
+}
+.imgBox .swiper-wrapper div img{
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 0 10px #bbbbbb;
+}
+
+.colorLine{
+	widows: 90%;
+	height: 5px;
+	background: url(../img/title-bg-nv.png) no-repeat center;
+}
+.txt_left h2{
+	padding-left: 32px;
+}
+.txt_left h2{
+	font-size: 20px;
+	color: #555555;
+}
+.txt_left p{
+	padding-left: 52px;
+}
+.txt_left h2 img{
+	width: 20px;
+	vertical-align: baseline;
+	margin-left: 5px;
+}
+.btn_hn_bottom{
+	display: none;
+}
+
+/*  .txt_left  */
+
+.txt_right{
+	padding-top: 55px;
+}
+.txt_right h1{
+	font-size: 20px;
+	font-weight: bold;
+	color: #555555;
+	padding: 0 0 6px 25px;
+}
+.txt_right ul{
+	margin-top: 35px;
+}
+.txt_right .ul_lr{
+	width: 50%;
+	padding-left: 50px;
+}
+.txt_right .ul_rt{
+	width: 50%;
+}
+.txt_right ul li{
+	padding-bottom: 30px;
+}
+.txt_right ul li span{
+	background: #fa92b9;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	padding: 7px 23px;
+	border-radius: 6px;
+}
+.smInfo,.heartInfo{
+	padding-top: 20px;
+}
+.heartInfo p,
+.hnInfo p{
+	padding: 25px 50px 20px 50px;
+	font-size: 16px;
+	text-indent: 2em;
+	color: #555555;
+	line-height: 1.8;
+}
+.hnInfo{
+	padding-bottom: 50px;
+	margin-top: 10px;
+}
+.vipSex{
+	background: url(../img/1-3.png) no-repeat;
+    background-size: 50px 21px;
+    color: #ffffff;
+    padding: 2px 12px 5px 24px;
+    font-size: 12px;
+}
+.vipAddress{
+	background: url(../img/pos-white.png) 3px 5px no-repeat;
+	background-color: #b6b5b6;
+	padding: 2px 5px 2px 15px;
+	border-radius: 3px;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
